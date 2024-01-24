@@ -52,3 +52,10 @@ This web development "course" is not your typical, lengthy, and boring program. 
 ## Ready to Dive In? 🚀
 
 # Start here (nothing is linked yet)
+
+
+## For those curious
+### How it's made
+I'm using nuxt which is a Meta-framework for universal applications with a prebuilt documentation template called [docus](https://docus.dev/) which utilizes nuxt's great markdown integration features. That paired with lots of writing and configuring resulted in this clean UI. So props to Docus and the team that put it together, I'll probably be using this for documentation as apposed to what I had planned originally which was a static site generator.
+
+Also the website itself is hosted underneath my domain on my physical server which is (mostly) running 24/7 in a docker container I put together.

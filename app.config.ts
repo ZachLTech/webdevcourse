@@ -21,6 +21,13 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true
+    },
+    footer: {
+      credits: {
+        icon: '',
+        text: 'Made by Zach L',
+        href: 'https://zachl.space',
+      },
     }
   }
 })
