@@ -1,5 +1,4 @@
-<template><p><strong>Learn Web Dev't</strong></p></template>
-
+<template><p><strong>Learn Web Dev't 👨‍💻</strong></p></template>
 
 <style scoped>
     p{
