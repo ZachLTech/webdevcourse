@@ -53,11 +53,12 @@ This web development "course" is not your typical, lengthy, and boring program. 
 
 ## Ready to Dive In? 🚀
 
-# Start here (nothing is linked yet)
+# [Start here!!](https://webdev.zachl.space)
 
 
-## For those curious
-### How it's made
+## Also, for those curious
+How it's made:
+
 I'm using nuxt which is a Meta-framework for universal applications with a prebuilt documentation template called [docus](https://docus.dev/) which utilizes nuxt's great markdown integration features. That paired with lots of writing and configuring resulted in this clean UI. So props to Docus and the team that put it together, I'll probably be using this for documentation as apposed to what I had planned originally which was a static site generator.
 
-All hosted on my server running 24/7 (mostly) via docker. Check the status of the site [here](https://uptime.lopezhome.tech/status/webdevdocs)
+All hosted on my server running 24/7 (mostly) via docker. Check the status of the site [here](https://uptime.lopezhome.tech/status/webdevdocs). Also I'll be making a proper tech stack visual later
