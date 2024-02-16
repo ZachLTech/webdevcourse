@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WebDevCourse Examples Navigation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/070428bd88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0daa30b3d0.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script defer>
+      VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
+        max: 10,
+        speed: 800,
+        glare: true,
+        "max-glare": 1
+      });
+    </script>
+
+  </head>
+
+
+
+  <body>
+    <div class="container">
+      
+      <div class="head__section" style="display: flex; flex-direction: column;">
+        <img src="folder.png" style="height: 6.5em; width: 6.5em;" alt="Folder Icon">
+        <div style="position: absolute;">
+          
+          <script>
+            function copyToClipboard() {
+              var $temp = $("<input>");
+              $("body").append($temp);
+              $temp.val("https://www.zachl.space").select();
+              document.execCommand("copy");
+              $temp.remove();
+                
+              textSummary = document.getElementById("summary");
+              textSummary.innerHTML = "Copied to Clipboard."
+
+              setTimeout(function(){textSummary.innerHTML = ("I'm a freelance front-end web developer & software engineer")}, 1200);
+            }
+          </script>
+
+          <svg class="hidden" style="width: 20px; height: 20px;">
+            <defs>
+              <symbol id="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></symbol>
+            </defs>
+          </svg>
+        </div>
+        <p id="summary">Navigation page for <a href="https://github.com/ZachLTech/webdevcourse"><u>WebDevCourse</u></a> site examples.</p>
+      </div>
+
+      <div class="social__links">
+        <ul id="item">
+
+          <li class="instagram">
+            <a href="/examples/ZachsMediaReviews/index.html">
+              <span>
+                <h3>HTML</h3>
+                <p>Example HTML Media Reviews</p>
+              </span>
+              <i class="fa-regular fa-brands fa-html5 iconsmargin" style="color: #fafcff; position: absolute; "></i>
+            </a>
+          </li>
+
+          <li class="youtube">
+            <a href="/examples/MichaelScottSandwiches/index.html">
+              <span>
+                <h3>CSS</h3>
+                <p>Example HTML, CSS Restaurant Menu</p>
+              </span>
+              <i class="fa-regular fa-brands fa-css3-alt iconsmargin" style="color: #ffffff; position: absolute; "></i>
+            </a>
+          </li>
+
+          <li class="telegram">
+            <a href="/examples/ElRestauranteDeElegante/index.html">
+              <span>
+                <h3>CSS + Flex</h3>
+                <p>Example HTML, CSS Restaurant Menu (with Flex)</p>
+              </span>
+              <i class="fa-regular fa-brands fa-css3-alt iconsmargin" style="color: #ffffff; position: absolute; "></i></i>
+            </a>
+          </li>
+
+          <li class="github">
+            <a href="/examples/DonkeyResume/index.html">
+              <span>
+                <h3>JavaScript</h3>
+                <p>Example Résumé including HTML, CSS, and JS</p>
+              </span>
+              <i class="fa-regular fa-brands fa-js iconsmargin" style="position: absolute; "></i>
+            </a>
+          </li>
+
+          <li class="insta"><a href="https://github.com/ZachLTech/webdevcourse">
+              <span>
+                <h3>GitHub</h3>
+                <p>All my public code is stored here.</p>
+              </span>
+              <i class="fa fa-github iconsmargin" style="position: absolute; "></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
