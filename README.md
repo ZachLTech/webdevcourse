@@ -53,7 +53,7 @@ This web development "course" is not your typical, lengthy, and boring program. 
 
 ## Ready to Dive In? 🚀
 
-# [Start here!!](https://webdev.zachl.space)
+# [Start here!!](https://webdev.zachl.tech)
 
 
 ## Also, for those curious
