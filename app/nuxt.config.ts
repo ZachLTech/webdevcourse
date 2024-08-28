@@ -9,6 +9,6 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible'
   ],
   plausible: {
-    apiHost: 'https://analytics.lopezhome.tech',
+    apiHost: 'https://analytics.zachl.tech',
   },
 })

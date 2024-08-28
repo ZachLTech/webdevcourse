@@ -1,6 +1,6 @@
 # No-BS Web Development "Course"/Roadmap 🚀
 
-[![Status](https://uptime.lopezhome.tech/api/badge/24/status?style=for-the-badge)](https://uptime.lopezhome.tech/status/webdevdocs)
+[![Status](https://uptime.zachl.tech/api/badge/24/status?style=for-the-badge)](https://uptime.zachl.tech/status/webdevdocs)
 
 Welcome to the no-nonsense web development "course" meant to help guide you to learn web development and coding in JS the right way, with basic instruction and explaination followed by practice/mini project based experimenting on your end. 🌐💻
 
@@ -61,4 +61,4 @@ How it's made:
 
 I'm using nuxt which is a Meta-framework for universal applications with a prebuilt documentation template called [docus](https://docus.dev/) which utilizes nuxt's great markdown integration features. That paired with lots of writing and configuring resulted in this clean UI. So props to Docus and the team that put it together, I'll probably be using this for documentation as apposed to what I had planned originally which was a static site generator.
 
-All hosted on my server running 24/7 (mostly) via docker. Check the status of the site [here](https://uptime.lopezhome.tech/status/webdevdocs). Also I'll be making a proper tech stack visual later
+All hosted on my server running 24/7 (mostly) via docker. Check the status of the site [here](https://uptime.zachl.tech/status/webdevdocs). Also I'll be making a proper tech stack visual later
